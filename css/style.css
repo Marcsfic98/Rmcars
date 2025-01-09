@@ -30,6 +30,7 @@ header .logo{
 
 header nav.mobile{
     display: none;
+ 
 }
 
 header nav.desktop{
@@ -405,7 +406,7 @@ section.venda{
     top: 0;
     height: 20px;
     border-radius: 20px;
-    width: 30%;
+    width: 0;
     background: linear-gradient(to bottom,rgb(255,255,255), rgb(200,200,200));
 }
 
@@ -416,7 +417,7 @@ section.venda{
     background: linear-gradient(to bottom,rgb(255,255,255), rgb(180,180,180));
     border: 1px solid #777;
     position: absolute;
-    left: calc(30% - 13px);
+    left: 0;
     top: -3px;
     cursor: pointer;
 }
